@@ -13,8 +13,5 @@ resource "azurerm_resource_group" "r3" {
   location = "east us"
 }
 
-resource "azurerm_resource_group" "rg4" {
-  name = "rg4"
-  location = "central india"
-}
+
 
