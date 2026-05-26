@@ -7,3 +7,14 @@ resource "azurerm_resource_group" "rg2" {
   name = "rg2"
   location = "central india"
 }
+
+resource "azurerm_resource_group" "r3" {
+  name = "rg3"
+  location = "east us"
+}
+
+resource "azurerm_resource_group" "rg4" {
+  name = "rg4"
+  location = "central india"
+}
+
